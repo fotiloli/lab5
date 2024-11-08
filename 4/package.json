@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "js-sql-tasks-solutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --colors --detectOpenHandles"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.24.8",
+    "@jest/globals": "*",
+    "jest": "^29.7.0",
+    "postgres": "*"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+}
